@@ -1,0 +1,271 @@
+*{
+    margin: auto;
+    padding: auto;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color: darkkhaki;
+}
+#header{
+    width: 100%;
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+     padding: 10px 05%;
+}
+nav{
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 0;
+    margin-bottom: 5px;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    border: 2px solid #4152b4;
+    border-radius: 3px;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    background-color: #e61c1c;
+    color: #fff;
+    border: chocolate;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.logo{
+    width: 150px;
+    margin-top: 0px;
+    margin-left: 2px;
+padding-top: 0%;
+}
+nav ul{
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-right: 5px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 187px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#home::before{
+    content: " ";
+    background: url(home2.jpg) no-repeat center center/cover;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    width: 100%;
+    top: 170px;
+    left: 0px;
+    z-index: -1;
+    opacity:0.2;
+}
+ #home h1{
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    font-size: 48;
+    font-weight: 300;
+    padding: 40px 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ #home h2{
+    color: aqua;
+    font-size: 36px;
+    text-align: center;
+    margin: 2px 161px;
+    padding: 20px 25px;
+ }
+ #home p{
+    color: aliceblue;
+    font-size: 28;
+    text-align: center;
+    padding: 0px 226px;
+    margin: 0px 22px;
+ }
+ .btn{
+    color: black;
+    border-radius: 5px;
+    font-size: 20;
+    justify-content: center;
+    border: 0cap;
+    cursor: pointer;
+    padding: 1px;
+    margin: 23px 450px;
+    background-color: #ff004f;
+    width: 20%;
+    align-items: center;
+    align-content: center;
+ }
+ .btn:hover{
+    background-color: #6dce2d;
+ }
+ #sec{
+    background-color: rgb(27, 27, 14);
+    padding: 0.8px;
+    margin-bottom: 40px;
+    margin-top: 29px;
+
+ }
+ #products{
+    display: flex;
+    margin: 32px;
+    margin-top: 29px;
+ }
+ #products .box{
+    border: 2px solid rgb(46,48,167);
+    border-radius: 9px;
+    padding: 0%;
+    margin: 0px 13px;
+    margin-bottom: 20px;
+    background-color: darksalmon;
+ }
+ #products .box img{
+    height: 183px;
+    width: 269px;
+    display: block;
+    margin: auto;
+ }
+ .h1-primary{
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    margin: 8px;
+    text-align: center;
+    margin-top: 20px;
+    
+ }
+ .h2-secondary{
+    justify-content: center;
+    font-size: 1.42rem;
+    color: black;
+    margin: 8px 30px;
+    text-align: center;
+ }
+
+ #about h1{
+    font-size: 60;
+    text-align: center;
+    color: #33c292;
+ }
+ #about p{
+    font-size: 26;
+    text-align: center;
+    margin-bottom: 20px;
+    color: aliceblue;
+ }
+ #about p span{
+    color:yellow;
+ }
+ footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+#enquiry {
+    padding: 20px;
+    background-color: #ec7d7d;
+}
+
+#enquiry h2 {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 30;
+}
+
+.enquiry-form input,
+.enquiry-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #312d2d;
+    border-radius: 3px;
+}
+
+.enquiry-form button {
+    padding: 5px 10px;
+    background-color: #8b7676;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+#contact{
+    padding: 20px;
+    background-color: #e45e5e;
+    color: black;
+}
+
+#contact h2 {
+    margin-bottom: 10px;
+    font-size: 30;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contact li {
+    margin-bottom: 5px;
+}
+.social-links {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.social-icon {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 2px;
+}

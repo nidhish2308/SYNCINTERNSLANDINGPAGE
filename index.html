@@ -1,0 +1,120 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav> 
+                <img src="logo.png" alt="logo" class="logo"> 
+                <form class="search-form" action="/search" method="GET">
+                    <input type="text" name="query" placeholder="Search">
+                    <button type="submit">Search</button>
+                </form>
+            <ul>
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#sec">Our Products</a></li>
+                <li class="item"><a href="#about">About</a></li>
+                <li class="item"><a href="#enquiry">Enquiry</a></li>
+                <li class="item"><a href="#contact">Contact Us</a></li>
+
+            </ul>
+            </nav>
+        </div>
+    </div>
+  <section id="home"> 
+        <h1>
+            COMFORT IN EACH STEP<br>
+        </h1>
+        <h2>
+            The all new festival collection <br> is now LIVE... <br>
+        </h2>
+        <p>Best quality footwears for men, women and kids <br>
+             Now available at cheapest prices only at <br> THE SHOE HOUSE <br> Hurry up..
+        </p>
+        <button class="btn">Know more </button>
+
+    </section> 
+    <section id="sec">
+        <h1 class="h1-primary">Our Products</h1>
+        <div id="products">
+            <div class="box">
+                <img src="shoe.jpg" alt="shoes.com">
+                <h2 class="h2-secondary">Shoes</h2>
+            </div>
+            <div class="box">
+                <img src="sandle.jpg" alt="sandles.com">
+                <h2 class="h2-secondary">Sandles</h2>
+            </div>
+            <div class="box">
+                <img src="crocs.jpg" alt="crocs.com">
+                <h2 class="h2-secondary">Crocs</h2>
+            </div>
+            <div class="box">
+                <img src="slipper.jpg" alt="slippers.com">
+                <h2 class="h2-secondary">Slippers</h2>
+            </div>
+            <div class="box">
+                <img src="cleats,jpg.jpg" alt="cleats.com">
+                <h2 class="h2-secondary">Cleats</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>About us</h1><br><br>
+        <p>
+            At <span>The Shoe House</span>, we believe style shouldn't demand a huge investment of 
+            time or money. Style should be comfortable, accessible and easy to achieve. 
+            That's why our footwear feels as good as it looks, effortlessly taking you from the boardroom
+             to the restaurant, to the park with your family.
+              We strive to ensure your shopping experience is easy on your wallet, and your schedule,
+               by delivering fashion and value to everyone in your household.<br><br>
+               The Shoe House opened in 2020 and the chain has since grown to more than 
+               115 locations across India. We are still exploring more locations around the country to gather
+               broader audience.
+<br><br>
+<span>The Shoe House. Great brands. Smart Prices.</span> <br>
+        </p>
+    </section>
+    <section id="enquiry">
+        <h2>Enquiry</h2>
+        <form class="enquiry-form" action="/submit-enquiry" method="POST">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Submit Enquiry</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For any questions or concerns, please feel free to contact us using the information below:</p>
+        <ul>
+            <li>Email: info@theshoehouse.com</li>
+            <li>Phone: +917355637654</li>
+            <li>Address: Golghar Chowk, Gorakhpur, U.P., India</li>
+        </ul>
+    </section>
+
+      <footer>
+        <p><center> LETS GO SOCIAL</center></p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/your-instagram-account" target="_blank" rel="noopener noreferrer">
+                <img src="insta.jpg" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://www.linkedin.com/company/your-linkedin-page" target="_blank" rel="noopener noreferrer">
+                <img src="linkedin.jpg" alt="LinkedIn" class="social-icon">
+            </a>
+            <a href="https://www.linkedin.com/company/your-linkedin-page" target="_blank" rel="noopener noreferrer">
+                <img src="thread.jpg" alt="LinkedIn" class="social-icon">
+            </a>
+        </div>
+
+
+        <p>&copy; 2023 The Shoe House. All rights reserved.</p>
+
+      </footer>
